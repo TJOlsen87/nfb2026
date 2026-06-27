@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moonshine Dinner Menu, Accessible Version</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      color: #1f1f1f;
+      background: #ffffff;
+    }
+    h1, h2, h3 { line-height: 1.2; }
+    h1 { margin-bottom: 0.25rem; }
+    .note { font-size: 0.95rem; }
+    nav ul { columns: 2; }
+    section { margin-top: 2rem; border-top: 1px solid #ccc; padding-top: 1rem; }
+    .item { margin-bottom: 1rem; }
+    .item-name { font-weight: bold; }
+    .price { font-weight: bold; }
+    .description { margin: 0.15rem 0 0 0; }
+    ul.addons { margin-top: 0.25rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Moonshine Dinner Menu</h1>
+    <p class="note">Accessible clean-text version transcribed from the Moonshine Patio Bar &amp; Grill dinner menu dated June 8, 2026.</p>
+  </header>
+
+  <nav aria-label="Menu sections">
+    <h2>Menu Sections</h2>
+    <ul>
+      <li><a href="#starters">Starters</a></li>
+      <li><a href="#greens">Salads and Greens</a></li>
+      <li><a href="#entrees">Entrées</a></li>
+      <li><a href="#handhelds">Handhelds</a></li>
+      <li><a href="#sides">Sides</a></li>
+      <li><a href="#sweets">Desserts</a></li>
+      <li><a href="#notes">Menu Notes</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="starters">
+      <h2>Starters</h2>
+      <div class="item"><p><span class="item-name">Corn Dog Shrimp</span> — <span class="price">$14</span></p><p class="description">Moonshine Original, honey mustard, blueberry swirl.</p></div>
+      <div class="item"><p><span class="item-name">Street Corn Queso</span> — <span class="price">$14</span></p><p class="description">Queso fresco, pico de gallo, bacon, tortilla chips.</p></div>
+      <div class="item"><p><span class="item-name">Brisket Burnt Ends Quesadilla</span> — <span class="price">$18</span></p><p class="description">Guacamole, cilantro crema, pico de gallo, pickled jalapeños.</p></div>
+      <div class="item"><p><span class="item-name">Mama's Pimento Cheese</span> — <span class="price">$15</span></p><p class="description">Garden crudités, hot pretzel sticks.</p></div>
+      <div class="item"><p><span class="item-name">Fried Green Tomatoes</span> — <span class="price">$18</span></p><p class="description">Jumbo lump crabmeat, avocado, tomato, green goddess dressing.</p></div>
+      <div class="item"><p><span class="item-name">Crispy Calamari</span> — <span class="price">$15</span></p><p class="description">Arugula salad, remoulade.</p></div>
+      <div class="item"><p><span class="item-name">Cathead Biscuits</span> — <span class="price">$12</span></p><p class="description">Honey butter, house preserves.</p></div>
+    </section>
+
+    <section id="greens">
+      <h2>Salads and Greens</h2>
+      <div class="item"><p><span class="item-name">Black and Blue Steak Salad*</span> — <span class="price">$22</span></p><p class="description">Peppercorn-crusted beef, spinach, blueberries, pear, blue cheese, pickled onions, balsamic vinaigrette.</p></div>
+      <div class="item"><p><span class="item-name">Cornflake Fried Chicken Salad</span> — <span class="price">$19</span></p><p class="description">Avocado, bacon, cheddar, tomato, honey mustard.</p></div>
+      <div class="item"><p><span class="item-name">Little Gem Caesar</span> — <span class="price">$15</span></p><p class="description">Tomato, boiled egg, garlic croutons, parmesan.</p></div>
+      <div class="item"><p><span class="item-name">Harvest Bowl</span> — <span class="price">$16</span></p><p class="description">Seasonal greens, corn, zucchini, beets, radish, blackberries, chickpeas, pumpkin seeds, goat cheese, herb vinaigrette.</p></div>
+      <div class="item"><p><span class="item-name">Berkeley House Salad</span> — <span class="price">$13</span></p><p class="description">Seasonal greens, cucumber, carrot, tomato, red onion, queso fresco, garlic croutons, simple lemon vinaigrette.</p></div>
+      <h3>Add-ons</h3>
+      <ul class="addons">
+        <li>Chicken — $8</li>
+        <li>Shrimp — $10</li>
+        <li>Salmon — $13</li>
+      </ul>
+    </section>
+
+    <section id="entrees">
+      <h2>Entrées</h2>
+      <div class="item"><p><span class="item-name">Chicken Fried Steak</span> — <span class="price">$25</span></p><p class="description">Chipotle cream gravy, roasted garlic mashers.</p></div>
+      <div class="item"><p><span class="item-name">Chicken and Waffles</span> — <span class="price">$21</span></p><p class="description">Lemon butter, maple syrup, chipotle cream gravy.</p></div>
+      <div class="item"><p><span class="item-name">Creole Shrimp and Grits</span> — <span class="price">$28</span></p><p class="description">Creole sauce, tasso ham, toasted baguette.</p></div>
+      <div class="item"><p><span class="item-name">Blackened Catfish</span> — <span class="price">$25</span></p><p class="description">Crawfish, herb sauce, pecan meunière, stone ground grits.</p></div>
+      <div class="item"><p><span class="item-name">Horseradish Crusted Salmon*</span> — <span class="price">$28</span></p><p class="description">Lemon dill butter sauce, Brussels sprouts.</p></div>
+      <div class="item"><p><span class="item-name">Pan-Fried Chicken Almondine</span> — <span class="price">$22</span></p><p class="description">Lemon caper butter, artichokes, roasted garlic mashers.</p></div>
+      <div class="item"><p><span class="item-name">Green Chile Macaroni</span> — <span class="price">$22</span></p><p class="description">Roasted chicken, corn, brisket, bacon gratin.</p></div>
+      <div class="item"><p><span class="item-name">Wagyu Salisbury Steak*</span> — <span class="price">$23</span></p><p class="description">Chopped Wagyu, mushroom gravy, roasted garlic mashers.</p></div>
+      <h3>From the Grill</h3>
+      <div class="item"><p><span class="item-name">Center Cut Pork Chop*</span> — <span class="price">$29</span></p><p class="description">Peach bourbon glaze, demi-glace, herb salad, roasted garlic mashers.</p></div>
+      <div class="item"><p><span class="item-name">Jalapeño Hanger Steak*</span> — <span class="price">$32</span></p><p class="description">Salsa verde, demi-glace, roasted garlic mashers.</p></div>
+      <div class="item"><p><span class="item-name">Bone-In Ribeye, 16 ounce*</span> — <span class="price">$38</span></p><p class="description">Wood grilled, cowboy rub, demi-glace, herb butter, roasted garlic mashers.</p></div>
+    </section>
+
+    <section id="handhelds">
+      <h2>Handhelds</h2>
+      <p>Served with your choice of side unless otherwise noted.</p>
+      <div class="item"><p><span class="item-name">Brisket Burnt Ends Grilled Cheese</span> — <span class="price">$18</span></p><p class="description">Texas toast, sharp cheddar, Gruyère, caramelized onions, pickled jalapeños.</p></div>
+      <div class="item"><p><span class="item-name">Hoss' Hot Chicken</span> — <span class="price">$18</span></p><p class="description">Honey hot sauce, kale slaw, pickles, house mayo.</p></div>
+      <div class="item"><p><span class="item-name">Backyard Chicken</span> — <span class="price">$18</span></p><p class="description">Pepper jack, avocado, poblano, onion, tomato, Dr Pepper BBQ sauce, house mayo.</p></div>
+      <div class="item"><p><span class="item-name">Pimento Cheeseburger*</span> — <span class="price">$19</span></p><p class="description">Beef patty, bacon jam, lettuce, onion, tomato, pickle, house mayo.</p></div>
+      <div class="item"><p><span class="item-name">Black Bean Burger</span> — <span class="price">$17</span></p><p class="description">Red onion, lettuce, tomato, beets, house mayo, seeded wheat bun.</p></div>
+    </section>
+
+    <section id="sides">
+      <h2>Sides</h2>
+      <div class="item"><p><span class="item-name">House Fries</span> — <span class="price">$6</span></p></div>
+      <div class="item"><p><span class="item-name">Sweet Potatoes</span> — <span class="price">$8</span></p><p class="description">Twice-cooked, hot honey.</p></div>
+      <div class="item"><p><span class="item-name">Baked Macaroni</span> — <span class="price">$8</span></p><p class="description">Pimento cheese, bacon gratin.</p></div>
+      <div class="item"><p><span class="item-name">Roasted Garlic Mashers</span> — <span class="price">$8</span></p></div>
+      <div class="item"><p><span class="item-name">Stone Ground Grits</span> — <span class="price">$8</span></p></div>
+      <div class="item"><p><span class="item-name">Crispy Brussels Sprouts</span> — <span class="price">$10</span></p><p class="description">Hot honey, queso fresco.</p></div>
+    </section>
+
+    <section id="sweets">
+      <h2>Desserts</h2>
+      <div class="item"><p><span class="item-name">Banana Cream Pudding</span> — <span class="price">$12</span></p><p class="description">Vanilla wafer, butterscotch.</p></div>
+      <div class="item"><p><span class="item-name">Peanut Butter Mousse Pie</span> — <span class="price">$12</span></p><p class="description">Oreo crust.</p></div>
+      <div class="item"><p><span class="item-name">Bread Pudding</span> — <span class="price">$12</span></p><p class="description">Vanilla bean ice cream, whiskey caramel.</p></div>
+      <div class="item"><p><span class="item-name">Chocolate Espresso Brownie</span> — <span class="price">$12</span></p><p class="description">Chocolate ganache, pecan, salted caramel ice cream.</p></div>
+    </section>
+
+    <section id="notes">
+      <h2>Menu Notes</h2>
+      <p>Items marked with an asterisk (*) may be cooked to order. Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness.</p>
+      <p>Prices and menu items were transcribed from the provided June 2026 dinner menu.</p>
+    </section>
+  </main>
+</body>
+</html>
